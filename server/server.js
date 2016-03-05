@@ -2,17 +2,13 @@ console.log("*******************************************************************
 console.log("Starting Server")
 console.log("*******************************************************************")
 
-var server = http.createServer(function (request, response) {
-  var clientRequest = url.parse(request.url, true).query;
+var http = require('http');
+const PORT=8888;
 
-  if (clientRequest.text) {
-    convert('engfemale1', queryData.text, response);
-    response.writeHead(200, {
-        'Content-Type': 'audio/mp3',
-        'Content-Disposition': 'attachment; filename="tts.mp3"'
-    });
+http.createServer(function(request, response) {
 
-  } else {
-    response.end('No text to convert.');
-  }
-}).listen(8080);
+//if statements to deside what happens
+response.end("Some stuff happens");
+
+
+}).listen(PORT);
