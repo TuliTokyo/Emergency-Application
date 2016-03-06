@@ -1,0 +1,18 @@
+{
+  "name": "emrg_info",
+  "version": "1.0.0",
+  "description": "This is the server for the emrg_info app",
+  "main": "emrg_info.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "firebase": "^2.4.1",
+    "http": "0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Bertie",
+  "license": "ISC"
+}
