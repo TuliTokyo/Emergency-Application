@@ -2,10 +2,10 @@ console.log("*******************************************************************
 console.log("Starting Server")
 console.log("*******************************************************************")
 
-const PORT=8888;
+const PORT=5000;
 var http = require('http');
 var Firebase = require("firebase");
-var myFirebaseRef = new Firebase("https://crackling-heat-3819.firebaseio.com/");
+var myFirebaseRef = new Firebase("https://namemerge.firebaseio.com/");
 var express = require("express");
 var app = express();
 
