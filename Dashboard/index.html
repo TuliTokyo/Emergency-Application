@@ -9,7 +9,6 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="css/style.css" rel="stylesheet">
-    <link href="js/color/material.blue-light_green.min.css" rel="stylesheet">
 
     <!-- Angular Material requires Angular.js Libraries -->
     <script src="js/angular.min.js"></script>
@@ -22,44 +21,87 @@
     <!-- Material Design libraries -->
     <script src="js/material.min.js"></script>
     <script src="js/material.js"></script>
-    <!-- Material Design styling -->
+    <!--Material Design styling -->
     <link href="css/material.css" rel="stylesheet">
     <link href="css/material.min.css.map" rel="stylesheet">
     <link href="css/material.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.11.2/angular-material.min.css">
+    <!-- Angular Material Dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
+
+
+    <!-- Angular Material Javascript now available via Google CDN; version 0.11.2 used here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.11.2/angular-material.min.js"></script>
+
+
+
+    <link href="js/color/material.red-deep_orange.min.css" rel="stylesheet">
 
 
     <!-- My app's js -->
     <script src="js/app.js"></script>
 
 </head>
-<body class="mdl-app mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+<body class="mdl-app">
 
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header mdl-color--primary">
-            <div class="mdl-layout__header-row ">
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header mdl-color--primary">
+        <div class="mdl-layout__header-row ">
 
+        </div>
+        <div class="mdl-layout__header-row">
+            <h1>eMerge</h1>
+        </div>
+        <div class="mdl-layout__header-row"></div>
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark mdl-color--(white)">
+            <div class="mdl-tabs__tab-bar">
+                <a href="#about-panel" class="mdl-tabs__tab is-active"><h5>HOME</h5></a>
+                <a href="#members-panel" class="mdl-tabs__tab"><h5>HISTORY</h5></a>
+                <a href="#albums-panel" class="mdl-tabs__tab"><h5>MORE</h5></a>
             </div>
-            <div class="mdl-layout__header-row">
-                <h1>eMerge</h1>
-            </div>
-            <div class="mdl-layout__header-row"></div>
-            <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-                <div class="mdl-tabs__tab-bar">
-                    <a href="#about-panel" class="mdl-tabs__tab is-active">HOME</a>
-                    <a href="#members-panel" class="mdl-tabs__tab">History</a>
-                    <a href="#albums-panel" class="mdl-tabs__tab">Meh</a>
-                </div>
-                <div class="mdl-layout-spacer"></div>
-                <div>
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="float: right;">
-                        LOGOUT
-                    </button>
-                </div>
-            </div>
+            <div class="mdl-layout-spacer"></div>
+            <div>
 
-        </header>
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" >
+                    LOGOUT
+                </button>
+            </div>
+        </div>
+    </header>
+    <div id="wrap">
+
+
+        <div class="mdl-tabs__panel is-active" id="about-panel" ng-controller="cardCtrl">
+            <md-card>
+                <md-card-title>
+                    <md-card-title-text>
+                        <span class="md-headline">Emergency ID: Car Accident</span><br><br><br><br>
+
+                    </md-card-title-text>
+                    <ul id="Card_Content">
+                        <li><i class="fa fa-map-marker"></i>    Location: <a href="#location">Click To View</a></li>
+                        <li><i class="fa fa-ambulance"></i>     Association: MVA Fund</li>
+                    </ul>
+                </md-card-title>
+                <!--<div ng-controller="listController">
+                    {{names}}
+                    <select ng-model="selectedName" ng-options="x for x in names">
+                    </select>
+                </div> (Figure Out)-->
+                <div id="button">
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" >
+                    SUBMIT
+                </button></div>
+            </md-card>
+        </div>
 
     </div>
+
+</div>
 
 
 </body>
