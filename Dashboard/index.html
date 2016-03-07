@@ -49,15 +49,16 @@
 <body class="mdl-app">
 
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    <header class="mdl-layout__header mdl-color--primary">
+    <header class="mdl-layout__header mdl-color--primary"flex-lt-md="960px <= width < 1280px"
+            flex-order-lt-lg="1280px <= width < 1920px" flex-order-lt-md="960px <= width < 1280px">
         <div class="mdl-layout__header-row ">
 
         </div>
         <div class="mdl-layout__header-row">
-            <h1>eMerge</h1>
+            <h1>eMerge <img src="img/icon_e.png" height="70px" width="70px"></h1>
         </div>
         <div class="mdl-layout__header-row"></div>
-        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark mdl-color--(white)">
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
             <div class="mdl-tabs__tab-bar">
                 <a href="#about-panel" class="mdl-tabs__tab is-active"><h5>HOME</h5></a>
                 <a href="#members-panel" class="mdl-tabs__tab"><h5>HISTORY</h5></a>
@@ -79,7 +80,7 @@
             <md-card>
                 <md-card-title>
                     <md-card-title-text>
-                        <span class="md-headline">Emergency ID: Car Accident</span><br><br><br><br>
+                        <span class="md-headline">Emergency ID: Car Accident</span><br><br>
 
                     </md-card-title-text>
                     <ul id="Card_Content">
@@ -92,10 +93,32 @@
                     <select ng-model="selectedName" ng-options="x for x in names">
                     </select>
                 </div> (Figure Out)-->
-                <div id="button">
+                <div id="button1">
                     <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" >
                     SUBMIT
                 </button></div>
+            </md-card>
+
+            <md-card>
+                <md-card-title>
+                    <md-card-title-text>
+                        <span class="md-headline">Emergency ID: Forest Fire</span><br><br>
+
+                    </md-card-title-text>
+                    <ul id="Card_Content">
+                        <li><i class="fa fa-map-marker"></i>    Location: <a href="#location">Click To View</a></li>
+                        <li><i class="fa fa-ambulance"></i>     Association: Fire Brigade</li>
+                    </ul>
+                </md-card-title>
+                <!--<div ng-controller="listController">
+                    {{names}}
+                    <select ng-model="selectedName" ng-options="x for x in names">
+                    </select>
+                </div> (Figure Out)-->
+                <div id="button1">
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" >
+                        SUBMIT
+                    </button></div>
             </md-card>
         </div>
 
