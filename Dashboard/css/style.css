@@ -1,0 +1,109 @@
+body{
+    background-color:#FFFFFF ;
+    border-color: #B71C1C;
+
+
+}
+.card {
+    align-items: center;
+    width: 75%;
+    box-shadow: 10px 10px 5px #1976D2;
+    text-align: center;
+    background-color: #B71C1C ;
+    color: #FFFFFF ;
+    margin-left: 12.5%;
+    margin-right-right: 05%;
+    margin-bottom: 02%;
+}
+
+.button{
+    background-color: #1976D2;
+    border-radius: 30px;
+
+    padding: 05px 10px;
+    margin: 05px;
+
+    cursor: pointer;
+
+
+    justify-content: center;
+    align-items: center;
+
+    flex: 0 0 160px;
+
+    text-align: center;
+    line-height: 1.3;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-transform: none;
+
+    font-weight: 500;
+
+    transition: all 100ms ease-in-out;
+
+
+}
+
+header{
+    text-align: center;
+    font-size: 150%;
+    margin-bottom: inherit;
+    color: #FFFFFF;
+    background-color: #B71C1C;
+    margin-top:0%;
+
+
+
+}
+
+.button2{
+    background-color: #1976D2;
+    border-radius: 30px;
+
+    padding: 05px 10px;
+    margin: 05px;
+
+    cursor: pointer;
+
+
+    justify-content: center;
+    align-items: center;
+
+    flex: 0 0 160px;
+
+    text-align: center;
+    line-height: 1.3;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-transform: none;
+
+    font-weight: 500;
+
+    transition: all 100ms ease-in-out;
+
+
+}
+#Card_Content{
+    font-size: 135%;
+}
+
+#wrap{
+    min-height: 100%; width: 90%; margin: 0 auto; padding: 0 20px;
+    border-width: 0 1px;
+    box-shadow: 0px 0px 5px 5px #888;
+    border-radius: 10px;
+    margin-bottom: 2.5%;
+    margin-top: 1.5%;
+    background: #1976d2;
+}
+#eIcon{
+    align-content: flex-end;
+}
+h5{
+    color: #FFFFFF;
+}
+#about-panel{
+}
+.md-card{
+    background-color: #00acc1;
+}
