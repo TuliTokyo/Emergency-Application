@@ -3,7 +3,7 @@
 ﻿A realtime software solutions that is focused on creating a swift manner in which citizens respond to emergency events whenever they find themsleves helpless and in need of urgent attention from the following emergency service provide
 
 
-﻿# Stakeholders
+# Stakeholders
 ﻿* Citizens
 ﻿* Emergency Service Providers
 
