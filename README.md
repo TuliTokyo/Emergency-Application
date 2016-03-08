@@ -4,21 +4,24 @@
 
 
 # Stakeholders
-﻿* Citizens
-﻿* Emergency Service Providers
+* Citizens
+* Emergency Service Providers
 
 
-﻿# Deliverables
+# Deliverables
 * eMerge Mobile Application - For use by citizens to report emergencies.
 * uRgency Mobile Application -  For use by the mobile emergency service provider resources/respondents.
-* eMergen Namibia Web Application -  For use by authorities to monitor emergencies being reported and for management of their resources.
+* eMerge Namibia Web Application -  For use by authorities to monitor emergencies being reported and for management of their resources.
 * Server & DB - Dynamic and realtime updates.
 
-﻿# Architectural Setup
+# Architectural Setup
 * Server ==> NodeJS (https://nodejs.org/)
 * Databse ==> Firebase (https://www.firebase.com/)
 * Web App ==> AngularJS (https://angularjs.org/)
 * Mobile App ==> Android (http://developer.android.com/)
 
-﻿# Contributors
-﻿* [Tuli](https://github.com/TuliTokyo)
+# Contributors
+* [Tuli](https://github.com/TuliTokyo)
+* [Bertie](https://github.com/BertieC)
+* [Erass](https://github.com/erassynathingo)
+* [Heinrich](https://github.com/Mastermind64222-0)
