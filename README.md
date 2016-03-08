@@ -23,5 +23,5 @@
 # Contributors
 * [Tuli](https://github.com/TuliTokyo)
 * [Bertie](https://github.com/BertieC)
-* [Erass](https://github.com/erassynathingo)
+* [Erassy](https://github.com/erassynathingo)
 * [Heinrich](https://github.com/Mastermind64222-0)
