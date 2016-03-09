@@ -5,39 +5,76 @@ console.log("*******************************************************************
 const PORT=5000;
 var http = require('http');
 var Firebase = require("firebase");
-var myFirebaseRef = new Firebase("https://namemerge.firebaseio.com");
+var myFirebaseRef = new Firebase("https://torrid-fire-226.firebaseio.com");
 var express = require("express");
 var app = express();
 
   app.get("/addUsr", function(req, res){
-    var id = req.param("id");
-    var name = req.param("name");
-    var surname = req.param("surname");
-    var device_id = req.param("device_id");
+    var fname = req.param("fname");
+    var lname = req.param("lname");
     var town = req.param("town");
-    var cellphone = req.param("cellphone");
-    var usrRef = myFirebaseRef.child(cellphone);
-    usrRef.push(
+    var phone = req.param("phone");
+    var usrRef = myFirebaseRef.child("citizens").child(phone);
+
+    usrRef.set(
       {
-      "id":id,
-      "name":name,
-      "surname":surname,
-      "device_id":device_id,
-      "town":town,
-      "cellphone":cellphone
+      "fname":fname,
+      "lname":lname,
+      "town":town
     });
     console.log("added new User...");
   });
 
-  app.get("/emrg", function(req, res){
-    var cellphone = req.param("cellphone");
-    var usrRef = myFirebaseRef.child(cellphone);
-    usrRef.on("value", function(snapshot) {
-     var userData = snapshot.val();
-     console.log("The updated post title is " + userData);
-     res.send(userData);
+app.get("/addService", function(req, res){
+  var sname = req.param("sname");
+  var town = req.param("town");
+  var emphone = req.param("emphone");
+  var emphonealt = req.param("emphonealt");
+  var emtype = req.param("emtype");
+  var residence = req.param("residence");
+  var lat = req.param("lat");
+  var long = req.param("long");
+  var usrRef = myFirebaseRef.child("services").child(sname);
+
+  usrRef.set(
+    {
+    "town":town,
+    "emphone":emphone,
+    "emphonealt":emphonealt,
+    "emtype":emtype,
+    "residence":residence,
+    "location":{
+      "lat":lat,
+      "long":long
+    }
   });
+  console.log("added new Service...");
 });
+
+app.get("/emrg", function(req, res){
+  var cell = req.param("phone");
+  var lat = req.param("lat");
+  var long = req.param("long");
+  var fname;
+  var lname;
+  var town;
+  var phone;
+  var nameRef = myFirebaseRef.child("citizens").child(cell);
+
+  nameRef.once('value', function(snapshot) {
+  var data = snapshot.val();
+  fname = data.fname;
+  lname = data.lname;
+  town = data.town;
+  phone = cell;
+  console.log('name: ' + fname);
+  console.log('last name: ' + lname);
+  console.log('town: ' + town);
+  console.log('phone: ' + phone);
+  console.log('lat: ' + lat);
+  console.log('long: ' + long);
+  });
+  });
 
 var server = app.listen(PORT, function(){
   console.log("Listening on port " + PORT);
