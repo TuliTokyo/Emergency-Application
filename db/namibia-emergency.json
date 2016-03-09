@@ -117,10 +117,13 @@
          ]
       }
    ],
+    
    "resources":[  
       {  
          "fname":"Selma",
          "lname":"Selma",
+         "username":"test",
+         "password":"123",
          "rnumber":"000001EM",
          "town":"Windhoek",
          "status":"available",
@@ -130,6 +133,8 @@
       {  
          "fname":"Paulus",
          "lname":"Paulus",
+         "username":"test",
+         "password":"123",
          "rnumber":"000010EM",
          "town":"Windhoek",
          "status":"available",
@@ -139,6 +144,8 @@
       {  
          "fname":"Mark",
          "lname":"Mark",
+         "username":"test",
+         "password":"123",
          "rnumber":"000011EM",
          "town":"Windhoek",
          "status":"available",
@@ -148,6 +155,8 @@
       {  
          "fname":"Bertie",
          "lname":"Bertie",
+         "username":"test",
+         "password":"123",
          "rnumber":"000026EM",
          "town":"Windhoek",
          "status":"available",
@@ -157,6 +166,8 @@
       {  
          "fname":"Gervasius",
          "lname":"Gervasius",
+         "username":"test",
+         "password":"123",
          "rnumber":"000027EM",
          "town":"Windhoek",
          "status":"unavailable",
@@ -166,6 +177,8 @@
       {  
          "fname":"Saarty",
          "lname":"Saarty",
+         "username":"test",
+         "password":"123",
          "rnumber":"000028EM",
          "town":"Windhoek",
          "status":"unavailable",
@@ -175,6 +188,8 @@
       {  
          "fname":"Selma",
          "lname":"Selma",
+         "username":"test",
+         "password":"123",
          "rnumber":"000001EM",
          "town":"Windhoek",
          "status":"available",
@@ -184,6 +199,8 @@
       {  
          "fname":"Paulus",
          "lname":"Paulus",
+         "username":"test",
+         "password":"123",
          "rnumber":"000010EM",
          "town":"Windhoek",
          "status":"available",
@@ -193,6 +210,8 @@
       {  
          "fname":"Mark",
          "lname":"Mark",
+         "username":"test",
+         "password":"123",
          "rnumber":"000011EM",
          "town":"Windhoek",
          "status":"available",
@@ -202,6 +221,8 @@
       {  
          "fname":"Petrus",
          "lname":"Petrus",
+         "username":"test",
+         "password":"123",
          "rnumber":"000002EM",
          "town":"Windhoek",
          "status":"unavailable",
@@ -211,6 +232,8 @@
       {  
          "fname":"Maria",
          "lname":"Maria",
+         "username":"test",
+         "password":"123",
          "rnumber":"000003EM",
          "town":"Windhoek",
          "status":"available",
@@ -220,6 +243,8 @@
       {  
          "fname":"Meriam",
          "lname":"Meriam",
+         "username":"test",
+         "password":"123",
          "rnumber":"000004EM",
          "town":"Windhoek",
          "status":"available",
@@ -229,6 +254,8 @@
       {  
          "fname":"Ebben",
          "lname":"Ebben",
+         "username":"test",
+         "password":"123",
          "rnumber":"000005EM",
          "town":"Windhoek",
          "status":"available",
@@ -238,6 +265,8 @@
       {  
          "fname":"Lovisa",
          "lname":"Lovisa",
+         "username":"test",
+         "password":"123",
          "rnumber":"000006EM",
          "town":"Windhoek",
          "status":"available",
@@ -247,6 +276,8 @@
       {  
          "fname":"Agnes",
          "lname":"Agnes",
+         "username":"test",
+         "password":"123",
          "rnumber":"000007EM",
          "town":"Windhoek",
          "status":"available",
@@ -256,6 +287,8 @@
       {  
          "fname":"Emma",
          "lname":"Emma",
+         "username":"test",
+         "password":"123",
          "rnumber":"000008EM",
          "town":"Windhoek",
          "status":"available",
@@ -265,6 +298,8 @@
       {  
          "fname":"Peter",
          "lname":"Peter",
+         "username":"test",
+         "password":"123",
          "rnumber":"000009EM",
          "town":"Windhoek",
          "status":"available",
@@ -274,6 +309,8 @@
       {  
          "fname":"Mario",
          "lname":"Mario",
+         "username":"test",
+         "password":"123",
          "rnumber":"000017EM",
          "town":"Windhoek",
          "status":"available",
@@ -283,6 +320,8 @@
       {  
          "fname":"Lesly",
          "lname":"Lesly",
+         "username":"test",
+         "password":"123",
          "rnumber":"000018EM",
          "town":"Windhoek",
          "status":"unavailable",
@@ -292,6 +331,8 @@
       {  
          "fname":"Zahara",
          "lname":"Zahara",
+         "username":"test",
+         "password":"123",
          "rnumber":"000019EM",
          "town":"Windhoek",
          "status":"unavailable",
@@ -301,6 +342,8 @@
       {  
          "fname":"Festus",
          "lname":"Festus",
+         "username":"test",
+         "password":"123",
          "rnumber":"000020EM",
          "town":"Windhoek",
          "status":"unavailable",
@@ -310,6 +353,8 @@
       {  
          "fname":"Lovisa",
          "lname":"Lovisa",
+         "username":"test",
+         "password":"123",
          "rnumber":"000021EM",
          "town":"Windhoek",
          "status":"available",
@@ -319,6 +364,8 @@
       {  
          "fname":"Arnold",
          "lname":"Arnold",
+         "username":"test",
+         "password":"123",
          "rnumber":"000022EM",
          "town":"Windhoek",
          "status":"unavailable",
@@ -328,6 +375,8 @@
       {  
          "fname":"Michael",
          "lname":"Michael",
+         "username":"test",
+         "password":"123",
          "rnumber":"000023EM",
          "town":"Windhoek",
          "status":"unavailable",
@@ -337,6 +386,8 @@
       {  
          "fname":"Cecilia",
          "lname":"Cecilia",
+         "username":"test",
+         "password":"123",
          "rnumber":"000023EM",
          "town":"Windhoek",
          "status":"unavailable",
@@ -346,6 +397,8 @@
       {  
          "fname":"Saara",
          "lname":"Saara",
+         "username":"test",
+         "password":"123",
          "rnumber":"000012EM",
          "town":"Windhoek",
          "status":"available",
@@ -355,6 +408,8 @@
       {  
          "fname":"Ilana",
          "lname":"Ilana",
+         "username":"test",
+         "password":"123",
          "rnumber":"000013EM",
          "town":"Windhoek",
          "status":"available",
@@ -364,6 +419,8 @@
       {  
          "fname":"Kay",
          "lname":"Kay",
+         "username":"test",
+         "password":"123",
          "rnumber":"000013EM",
          "town":"Windhoek",
          "status":"available",
@@ -373,6 +430,8 @@
       {  
          "fname":"Saara",
          "lname":"Saara",
+         "username":"test",
+         "password":"123",
          "rnumber":"000016EM",
          "town":"Windhoek",
          "status":"unavailable",
@@ -382,6 +441,8 @@
       {  
          "fname":"Bruce",
          "lname":"Bruce",
+         "username":"test",
+         "password":"123",
          "rnumber":"000015EM",
          "town":"Windhoek",
          "status":"unavailable",
@@ -391,6 +452,8 @@
       {  
          "fname":"Rose",
          "lname":"Rose",
+         "username":"test",
+         "password":"123",
          "rnumber":"000014EM",
          "town":"Windhoek",
          "status":"unavailable",
@@ -680,6 +743,7 @@
          "status":"help on way"
       }
    ],
+    
    "report_types":[  
       {  
          "rt_id":"1",
@@ -706,6 +770,671 @@
       {  
          "st_id":"3",
          "st_name":"resolved"
+      }
+   ]
+    
+    ,
+    
+   "directory":[  
+      {  
+         "dr_id":"1",
+         "dr_name":"Arandis",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 64 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 64 51 0022"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 64 51 0171"
+            }
+         ]
+      },
+      {  
+         "dr_id":"2",
+         "dr_name":"Aranos",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 63 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 63 27 2027"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 63 27 2051"
+            }
+         ]
+      },
+      {  
+         "dr_id":"3",
+         "dr_name":"Bethanie",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 63 28 3001"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 63 28 3026"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"n/a"
+            }
+         ]
+      },
+      {  
+         "dr_id":"4",
+         "dr_name":"Gibeon",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 63 25 1003"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 63 25 1026"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"n/a"
+            }
+         ]
+      },
+      {  
+         "dr_id":"5",
+         "dr_name":"Gobabis",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 62 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 62 56 6200"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 62 56 6666"
+            }
+         ]
+      },
+      {  
+         "dr_id":"6",
+         "dr_name":"Gochas",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 63 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 63 25 0020"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 63 25 0019"
+            }
+         ]
+      },
+      {  
+         "dr_id":"7",
+         "dr_name":"Grootfontein",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 67 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 67 24 8152"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 67 24 3101"
+            }
+         ]
+      },
+      {  
+         "dr_id":"8",
+         "dr_name":"Henties Bay",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 64 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 64 50 0020"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 64 50 2000"
+            }
+         ]
+      },
+      {  
+         "dr_id":"9",
+         "dr_name":"Kalfeld",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 67 29 0003"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 67 29 0003"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 67 29 0062"
+            }
+         ]
+      },
+      {  
+         "dr_id":"10",
+         "dr_name":"Kalkrand",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 63 26 4015"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 63 26 4072"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 63 26 4005"
+            }
+         ]
+      },
+      {  
+         "dr_id":"11",
+         "dr_name":"Kamanjab",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 67 27 0009"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 67 27 0167"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 67 27 0032"
+            }
+         ]
+      },
+      {  
+         "dr_id":"12",
+         "dr_name":"Karasburg",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 63 27 0009"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 63 27 0167"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 63 27 0032"
+            }
+         ]
+      },
+      {  
+         "dr_id":"13",
+         "dr_name":"Karibib",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 64 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 64 55 0073"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 64 53 0067"
+            }
+         ]
+      },
+      {  
+         "dr_id":"14",
+         "dr_name":"Katima Mulilo",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 66 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 66 25 1400"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 66 25 3599"
+            }
+         ]
+      },
+      {  
+         "dr_id":"15",
+         "dr_name":"Keetmanshoop",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 63 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 63 22 3388"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 63 22 1211"
+            }
+         ]
+      },
+      {  
+         "dr_id":"16",
+         "dr_name":"Khorixas",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 67 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 67 33 1064"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 67 233 1057"
+            }
+         ]
+      },
+      {  
+         "dr_id":"17",
+         "dr_name":"Leonardville",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 62 56 9103"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 62 56 6200"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 62 56 9115"
+            }
+         ]
+      },
+      {  
+         "dr_id":"18",
+         "dr_name":"Luderitz",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 63 20 2255"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 63 20 2446"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 63 20 2255"
+            }
+         ]
+      },
+      {  
+         "dr_id":"19",
+         "dr_name":"Malthahöhe",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 63 29 3005"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 63 29 3025"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 63 29 3048"
+            }
+         ]
+      },
+      {  
+         "dr_id":"20",
+         "dr_name":"Mariental",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 63 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 63 24 2331"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 63 24 0879"
+            }
+         ]
+      },
+      {  
+         "dr_id":"21",
+         "dr_name":"Noordoewer",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 63 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 63 29 7109"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"n/a"
+            }
+         ]
+      },
+      {  
+         "dr_id":"22",
+         "dr_name":"Okahandja",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 62 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 62 50 3030"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 62 50 1052"
+            }
+         ]
+      },
+      {  
+         "dr_id":"23",
+         "dr_name":"Okakarara",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 67 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 67 31 7004"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 67 10111"
+            }
+         ]
+      },
+      {  
+         "dr_id":"24",
+         "dr_name":"Omaruru",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 64 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 64 57 0037"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 64 57 0028"
+            }
+         ]
+      },
+      {  
+         "dr_id":"25",
+         "dr_name":"Ombalandu",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 65 25 1850"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 65 25 1021"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 65 25 1028"
+            }
+         ]
+      },
+      {  
+         "dr_id":"26",
+         "dr_name":"Omitara",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 62 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 62 203 9111"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 62 54 0231"
+            }
+         ]
+      },
+      {  
+         "dr_id":"27",
+         "dr_name":"Ondangwa",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 65 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 65 24 0111"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"n/a"
+            }
+         ]
+      },
+      {  
+         "dr_id":"28",
+         "dr_name":"Opuwo",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 65 27 3041"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 65 27 3026"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"n/a"
+            }
+         ]
+      },
+      {  
+         "dr_id":"29",
+         "dr_name":"Oranjemund",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 63 23 2228"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 63 23 8000"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 63 23 5555"
+            }
+         ]
+      },
+      {  
+         "dr_id":"30",
+         "dr_name":"Oshakati",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 65 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 65 22 0211"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 65 22 9500"
+            }
+         ]
+      },
+      {  
+         "dr_id":"31",
+         "dr_name":"Otavi",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 67 23 4006"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 67 23 4194"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"n/a"
+            }
+         ]
+      },
+      {  
+         "dr_id":"32",
+         "dr_name":"Otjinene",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 62 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 62 56 6200"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"n/a"
+            }
+         ]
+      },
+      {  
+         "dr_id":"33",
+         "dr_name":"Otjiwarongo",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 67 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 67 30 1014"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 67 30 4444"
+            }
+         ]
+      },
+      {  
+         "dr_id":"34",
+         "dr_name":"Outjo",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 67 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 67 31 3044"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 67 31 3404"
+            }
+         ]
+      },
+      {  
+         "dr_id":"35",
+         "dr_name":"Rehoboth",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 62 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 62 52 3811"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 62 52 2091"
+            }
+         ]
+      },
+      {  
+         "dr_id":"36",
+         "dr_name":"Rundu",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 66 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 66 52 3811"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 66 26 5500"
+            }
+         ]
+      },
+      {  
+         "dr_id":"37",
+         "dr_name":"Stampriet",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 63 26 0005"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 63 26 0083"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 63 26 0005"
+            }
+         ]
+      },
+      {  
+         "dr_id":"38",
+         "dr_name":"Swakopmund",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 64 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 64 410 6000"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 64 410 4111"
+            }
+         ]
+      },
+      {  
+         "dr_id":"39",
+         "dr_name":"Tsumeb",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 67 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 67 22 4300"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 67 22 1004"
+            }
+         ]
+      },
+      {  
+         "dr_id":"40",
+         "dr_name":"Uis",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 64 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 64 57 0037"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"n/a"
+            }
+         ]
+      },
+      {  
+         "dr_id":"41",
+         "dr_name":"Usakos",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 64 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 64 53 0023"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 64 53 0023"
+            }
+         ]
+      },
+      {  
+         "dr_id":"42",
+         "dr_name":"Walvis Bay",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 64 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 64 20 9832"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 64 20 3117"
+            }
+         ]
+      },
+      {  
+         "dr_id":"43",
+         "dr_name":"Windhoek",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 61 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 61 21 1111"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"+264 61 21 1111"
+            }
+         ]
+      },
+      {  
+         "dr_id":"44",
+         "dr_name":"Witvlei",
+         "type":[  
+            {  
+               "id":"1", "name":"Police", "phone":"+264 62 10111"
+            },
+            {  
+               "id":"2", "name":"Ambulance", "phone":"+264 62 56 6200"
+            },
+            {  
+               "id":"3", "name":"Fire Brigade", "phone":"n/a"
+            }
+         ]
       }
    ]
 }
