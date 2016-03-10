@@ -1,0 +1,11 @@
+http://localhost:5000/addUsr?fname=PresentationName&lname=foo&town=foo&phone=0000000003   addUser
+
+http://localhost:5000/addService?sname=City-Police&town=Windhoek&em_phone=264612902703&em_phone_alt=na&em_type=police&residence=Windhoek-North&lat=-22.560881&long=17.065755
+
+212001965B3Rt13
+
+http://localhost:5000/emrg?phone=0818291579&lat=-20.560881&long=17.065755     larger num
+
+http://localhost:5000/emrg?phone=0818291579&lat=-24.560881&long=17.065755     smaller num
+
+http://localhost:5000/emrg?phone=0818291579&lat=-22.660881&long=17.065755      emergencyCall
