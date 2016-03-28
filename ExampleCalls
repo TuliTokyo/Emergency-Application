@@ -5,4 +5,4 @@ Adding new Emergency services (Done)
 http://e-merge.herokuapp.com/addService?service=Test3&town=Windhoek&emphone=264612902703&emphonealt=na&emtype=police&residence=Windhoek-North&lat=-22.200000&long=17.200000
 
 Emergency call made by user (Under Construction)
-http://e-merge.herokuapp.com/emrg?phone=0818291579&lat=-20.560881&long=17.065755
+http://e-merge.herokuapp.com/emrg?emtype=ambulance&phone=0818291579&lat=-20.560881&long=17.065750
