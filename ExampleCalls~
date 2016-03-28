@@ -2,7 +2,7 @@ Adding new users (Done)
 http://e-merge.herokuapp.com/addUsr?fname=PresentationName&lname=foo&town=foo&phone=2000000001
 
 Adding new Emergency services (Done)
-http://e-merge.herokuapp.com/addService?service=Test3&town=Windhoek&emphone=264612902703&emphonealt=na&emtype=police&residence=Windhoek-North&lat=-22.200000&long=17.200000
+http://e-merge.herokuapp.com/addService?service=City-Police-Test2&town=Windhoek&emphone=264612902703&emphonealt=na&emtype=police&residence=Windhoek-North&lat=-22.560881&long=17.065755
 
 Emergency call made by user (Under Construction)
 http://e-merge.herokuapp.com/emrg?phone=0818291579&lat=-20.560881&long=17.065755
