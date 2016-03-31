@@ -88,7 +88,7 @@ app.get("/emrg", function(req, res){
   var servicesRef = myFirebaseRef.child("services");
 
     var smallerRef = servicesRef.orderByChild("comLoc").endAt(usrLoc).limitToLast(2);
-    smallerRef.on("value", function(snapshot) {
+/*    smallerRef.on("value", function(snapshot) {
       console.log('Snapshot Data: ' + snapshot.val());
         if (snapshot.numChildren() == 1) {
           snapshot.forEach(function(locSnapshot) {
@@ -142,7 +142,7 @@ app.get("/emrg", function(req, res){
 
             }
         });
-    });
+    });*/
 
 
   });

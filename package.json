@@ -6,6 +6,7 @@
   "dependencies": {
     "express": "^4.13.4",
     "firebase": "^2.4.1",
+    "haversine": "^1.0.0",
     "http": "0.0.0",
     "mathjs": "^3.0.0"
   },
