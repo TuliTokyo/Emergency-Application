@@ -64,8 +64,8 @@
         <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
             <div class="mdl-tabs__tab-bar">
                 <a href="#about-panel" class="mdl-tabs__tab is-active"><h5>Dashboard</h5></a>
-                <a href="#members-panel" class="mdl-tabs__tab"><h5>HISTORY</h5></a>
-                <a href="#albums-panel" class="mdl-tabs__tab"><h5>MORE</h5></a>
+                <a href="#members-panel" class="mdl-tabs__tab"><h5>History</h5></a>
+                <a href="#albums-panel" class="mdl-tabs__tab"><h5>Live Map</h5></a>
             </div>
 
             <div class="mdl-layout-spacer"></div>
@@ -129,6 +129,34 @@
                     SUBMIT
                 </button></div-->
             </md-card>
+			  <md-card>
+			<md-card-title>
+                    <md-card-title-text>
+                        <span class="md-headline">Emergency ID: Fire  <i class="fa fa-fire"></i>  </span><br><br>
+
+                    </md-card-title-text>
+                    <ul id="Card_Content">
+                        <li><i class="fa fa-male"></i>     Victim Name: Kobus Albertus</li>
+                        <li>      <i class="fa fa-phone"></i>Number: 0816166221</li>
+                        <li><i class="fa fa-map-marker"></i>    Location: Okahandja Secondary School<a href="https://www.google.com.na/maps/dir//Okahandja+Secondary+School,+Okahandja,+Otjozondjupa/@-21.9785049,16.8636374,13z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x1c0abd9075c4ef87:0x755c13499acea325!2m2!1d16.8986571!2d-21.9785882?hl=en" target="_blank">Click To View</a></li>
+                        <li><i class="fa fa-fire"></i>     Association: Fire Brigade</li>
+                        <li>Assign To:  <select ng-model="selectedName" ng-options="x for x in names"></select></li>
+                        <div id="button1">
+                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" >
+                                DISPATCH
+                            </button></div>
+                    </ul>
+                </md-card-title>
+                <!--<div ng-controller="listController">
+                    {{names}}
+                    <select ng-model="selectedName" ng-options="x for x in names">
+                    </select>
+                </div> (Figure Out)>
+                <div-- id="button1">
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" >
+                        SUBMIT
+                    </button></div-->
+            </md-card>
             <md-card>
                 <md-card-title>
                     <md-card-title-text>
@@ -158,34 +186,8 @@
                     </button></div-->
             </md-card>
 
-            <md-card>
-                <md-card-title>
-                    <md-card-title-text>
-                        <span class="md-headline">Emergency ID:  <i class="fa fa-fire"></i>  </span><br><br>
-
-                    </md-card-title-text>
-                    <ul id="Card_Content">
-                        <li><i class="fa fa-male"></i>     Victim Name: Kobus Albertus</li>
-                        <li>      <i class="fa fa-phone"></i>Number: 0816166221</li>
-                        <li><i class="fa fa-map-marker"></i>    Location: Okahandja Secondary School<a href="https://www.google.com.na/maps/dir//Okahandja+Secondary+School,+Okahandja,+Otjozondjupa/@-21.9785049,16.8636374,13z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x1c0abd9075c4ef87:0x755c13499acea325!2m2!1d16.8986571!2d-21.9785882?hl=en" target="_blank">Click To View</a></li>
-                        <li><i class="fa fa-fire"></i>     Association: Fire Brigade</li>
-                        <li>Assign To:  <select ng-model="selectedName" ng-options="x for x in names"></select></li>
-                        <div id="button1">
-                            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" >
-                                DISPATCH
-                            </button></div>
-                    </ul>
-                </md-card-title>
-                <!--<div ng-controller="listController">
-                    {{names}}
-                    <select ng-model="selectedName" ng-options="x for x in names">
-                    </select>
-                </div> (Figure Out)>
-                <div-- id="button1">
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" >
-                        SUBMIT
-                    </button></div-->
-            </md-card>
+          
+                
             <md-card>
                 <md-card-title>
                     <md-card-title-text>
